@@ -1,7 +1,5 @@
 # Task Tracker CLI
 
-Project URL: <https://github.com/zhovatter/task-tracker/>
-
 This repository contains a script (to-do-CLI.js) that allows the user to create and interact with a task tracker in the command line.
 The tasks are stored in a json file (tasks.json) in the current directory.
 
@@ -22,3 +20,5 @@ The commands and their usage are as follows:
 * `mark-in-progress <id>`: Changes the status of the specified task to "in-progress".
 * `mark-done <id>`: Changes the status of the specified task to "done".
 * `list [<filter>]`: Lists all tasks that match the status specified in the optional filter argument. Valid filter values are "todo", "in-progress", or "done". Using this command without an argument lists all tasks.
+
+The requirements for this project are outlined [here](https://roadmap.sh/projects/task-tracker)

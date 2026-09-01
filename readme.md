@@ -6,7 +6,9 @@ The tasks are stored in a json file (tasks.json) in the current directory.
 ### How to use:
 
 Run the script using `node readme.md`\
+
 "task-cli" will be printed in the console. You can write commands to the console and enter them as you would do in the shell, using positional arguments.\
+
 When you are finished interacting with the program, type `exit` to exit the program.
 
 The commands and their usage are as follows:
@@ -17,5 +19,4 @@ The commands and their usage are as follows:
 * `delete <id>`: Deletes the task with the specified id.\
 * `mark-in-progress <id>`: Changes the status of the specified task to "in-progress".\
 * `mark-done <id>`: Changes the status of the specified task to "done".\
-* `list [<filter>]`: Lists all tasks that match the status specified in the optional filter argument.\
-Valid filter values are "todo", "in-progress", or "done". Using this command without an argument lists all tasks.
+* `list [<filter>]`: Lists all tasks that match the status specified in the optional filter argument. Valid filter values are "todo", "in-progress", or "done". Using this command without an argument lists all tasks.

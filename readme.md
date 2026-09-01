@@ -5,7 +5,7 @@ The tasks are stored in a json file (tasks.json) in the current directory.
 
 ### How to use:
 
-Run the script using `node readme.md`
+Run the script using `node to-do-CLI.js`
 
 "task-cli" will be printed in the console. You can write commands to the console and enter them as you would do in the shell, using positional arguments.
 

@@ -1,5 +1,7 @@
 # Task Tracker CLI
 
+Project URL: <https://github.com/zhovatter/task-tracker/>
+
 This repository contains a script (to-do-CLI.js) that allows the user to create and interact with a task tracker in the command line.
 The tasks are stored in a json file (tasks.json) in the current directory.
 
